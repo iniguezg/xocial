@@ -1,0 +1,1 @@
+g++ -lm ./numenor.cpp ./ranrotb.cpp -o ./numenor

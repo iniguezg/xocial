@@ -1,9 +1,10 @@
 # xocial
-xocial - Models for coevolving social networks, opinion formation, conflict resolution, and complex contagion
 
-This is a library that implements several models of dynamics on and of social networks. Check the folders for model implementations. The description, analysis, and results of these models can be found in the following publications:
+## xocial - Models for coevolving social networks, opinion formation, conflict resolution, and complex contagion
 
-## Opinion formation on coevolving social networks
+This library implements several models of dynamics on and of social networks. Check the folders for model implementations. The description, analysis, and results of these models can be found in the following publications:
+
+## numenor - Opinion formation on coevolving social networks
 
 G. Iñiguez, J. Kertész, K. Kaski, R. A. Barrio  
 *Opinion and community formation in coevolving networks*  
@@ -29,7 +30,7 @@ PLoS ONE **7**, e42122 (2012)
 [DOI: 10.1371/journal.pone.0042122](https://doi.org/10.1371/journal.pone.0042122)  
 [arXiv: 1109.1488](https://arxiv.org/abs/1109.1488)
 
-## Opinion formation and conflict resolution
+## editwars - Opinion formation and conflict resolution
 
 J. Török, G. Iñiguez, T. Yasseri, M. San Miguel, K. Kaski, J. Kertész  
 *Opinions, conflicts, and consensus: Modeling social dynamics in a collaborative environment*  
@@ -43,7 +44,7 @@ EPJ Data Science **3**, 7 (2014)
 [DOI: 10.1140/epjds/s13688-014-0007-z](http://dx.doi.org/10.1140/epjds/s13688-014-0007-z)  
 [arXiv: 1403.3568](https://arxiv.org/abs/1403.3568)
 
-## Complex contagion on techno-social networks
+## cascader - Complex contagion on techno-social networks
 
 M. Karsai, G. Iñiguez, K. Kaski, J. Kertész  
 *Complex contagion process in spreading of online innovation*  
