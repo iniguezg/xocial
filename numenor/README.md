@@ -28,7 +28,7 @@ PLoS ONE **7**, e42122 (2012)
 
 ## INITIAL CONTENTS
 
-- `README.txt` (this file)
+- `README.*` (this file)
 
 - `numenor.cpp` (source code)
 - `compile` (compilation executable)
@@ -109,7 +109,7 @@ RUNNING SOURCE:
 
 TYPICAL USE:
 
-Minimum screen output (`with lifeswitch == 0` and the rest of switches zero) is:
+Minimum screen output (`with lifeswitch == 1` and the rest of switches zero) is:
 
 `< gen rewcheck >` (counter of rewirings per generation, every 10 generations)  
 `< gen rewcheck > ...`  
