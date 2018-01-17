@@ -1,0 +1,40 @@
+#configuration file for editwars.cpp
+#
+#
+#the whole system
+N		100
+xmin		0.00
+xmax		1.00
+adelta		0.50
+#discussion and editing
+epsT		0.20
+muT		0.50
+#dynamics
+tmax		100
+tstart		0
+tsnaps		1
+#auxiliary
+ntimes		2
+randSeed	0
+lagmax		100
+nboxes		30
+#switchs
+loopswitch	1
+timeswitch	1
+fastswitch	1
+coutswitch	1
+#article tolerance loop
+tol.ini		0.10
+tol.fin		0.10
+tol.inc		0.10
+#article convergence loop
+conv.ini 	0.38
+conv.fin	0.38
+conv.inc	0.10
+#noise rate loop
+noi.ini		0.00
+noi.fin		0.00
+noi.inc		0.10
+#
+#
+#end of configuration file

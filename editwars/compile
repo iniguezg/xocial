@@ -1,0 +1,1 @@
+g++ -Wall ./editwars.cpp `pkg-config --cflags --libs gsl` -o ./editwars
