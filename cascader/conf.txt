@@ -1,0 +1,33 @@
+#configuration file for cascader.cpp
+#
+#
+#the whole system
+N		10000
+ini_innov	0
+pnew		0.005
+r		0.0
+#dynamics
+tmax		10000
+tstart		0
+tsnaps		1000
+#auxiliary
+ntimes		100
+randSeed	0
+#switchs
+dataswitch	0
+clusswitch	0
+timeswitch	1
+tendswitch	0
+distswitch	0
+coutswitch	1
+#average degree loop
+avdeg.ini	7.00
+avdeg.fin	7.01
+avdeg.inc	0.1
+#threshold loop
+thres.ini	0.20
+thres.fin	0.21
+thres.inc	0.1
+#
+#
+#end of configuration file

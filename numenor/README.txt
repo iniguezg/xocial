@@ -129,17 +129,17 @@ Minimum screen output (with lifeswitch == 1 and the rest of switches zero) is:
 
 Minimum file output is:
 
-numenor-*	average properties for final state of dynamics. Quantities correspond in order to (nb ng nw nclu cmax meanz ccoef suscep plen neigh avclu):
+numenor-* -	average properties for final state of dynamics. Quantities correspond in order to (nb ng nw nclu cmax meanz ccoef suscep plen neigh avclu):
 
-- nb, ng, nw		number of black (x == -1), gray (|x| < 1) and white (x == 1) agents
-- nclu			number of clusters in network
-- cmax			maximum size of cluster in network
-- meanz			average degree in network
-- ccoef			average clustering coefficient in network
-- suscep			susceptibility of network (according to percolation theory)
-- plen			average shortest path length in network
-- neigh			average number of nth-order neighbours in network (set to n == 2)
-- avclu			average cluster size in network
+- nb, ng, nw - number of black (x == -1), gray (|x| < 1) and white (x == 1) agents
+- nclu - number of clusters in network
+- cmax - maximum size of cluster in network
+- meanz - average degree in network
+- ccoef - average clustering coefficient in network
+- suscep - susceptibility of network (according to percolation theory)
+- plen - average shortest path length in network
+- neigh - average number of nth-order neighbours in network (set to n == 2)
+- avclu - average cluster size in network
 
 NETWORK VISUALISATION:
 
@@ -149,12 +149,12 @@ Additional screen output: Himmeli screen output
 
 Additional file output (files get rewritten for each visualised network):
 
-- config.txt	configuration file for Himmeli
-- edges.txt	edge list for network
-- vertices.txt	node attributes for network
+- config.txt - configuration file for Himmeli
+- edges.txt - edge list for network
+- vertices.txt - node attributes for network
 
 Himmeli file output:
 
-- graph-*ini*.txt, graph-*fin*.txt		Himmeli configuration, edge and node files for initial/final networks
-- graph-*ini_*.svg, graph-*fin_*.svg		visualisation for initial/final networks
-- graph-*ini.info.svg, graph-*ini.info.svg	information on node color and shape
+- graph-*ini*.txt, graph-*fin*.txt - Himmeli configuration, edge and node files for initial/final networks
+- graph-*ini_*.svg, graph-*fin_*.svg - visualisation for initial/final networks
+- graph-*ini.info.svg, graph-*ini.info.svg - information on node color and shape

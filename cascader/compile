@@ -1,0 +1,1 @@
+g++ -Wall ./cascader.cpp `pkg-config --cflags --libs gsl` -o ./cascader
